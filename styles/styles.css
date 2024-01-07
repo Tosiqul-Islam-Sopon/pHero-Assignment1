@@ -10,7 +10,7 @@ main {
 }
 
 .part1_container {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 900px;
@@ -80,7 +80,7 @@ main {
 .part3_container {
     margin-top: 80px;
     position: relative;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 900px;
