@@ -6,6 +6,7 @@
 main {
     margin: 50px 100px 0px 100px;
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .part1_container {
@@ -38,5 +39,309 @@ main {
     text-align: center;
     font-size: 42px;
     font-weight: 900;
-    /* 131.944% */
+}
+
+.part2_container {
+    margin-top: 80px;
+    text-align: center;
+    /* position: relative; */
+}
+
+.part2_img {
+    width: 600px;
+}
+
+.part2_title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.part2_description {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.part2_subtitle {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.part3_container {
+    margin-top: 80px;
+    position: relative;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 400px;
+    text-align: left;
+}
+
+.part3_subcontainer {
+    padding-top: 90px;
+    padding-left: 90px;
+    max-width: 450px;
+}
+
+.part3_title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.part3_description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.part3_btn {
+    color: #FFF;
+    background-color: transparent;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.part4_container {
+    margin-top: 80px;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 400px;
+    text-align: center;
+}
+
+.part4_subcontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.part4_text {
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+
+.text_start {
+    color: #F00;
+}
+
+.part4_btn {
+    margin-top: 20px;
+    color: #FFF;
+    padding: 12px;
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.part5_container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+.part5_subcontainer {
+    max-width: 300px;
+    padding: 20px;
+}
+
+.part5_img {
+    width: 220px;
+    padding: 10px;
+    border: 5px solid red;
+    border-radius: 100%;
+}
+
+.part5_icon {
+    width: 80px;
+}
+
+.part5_subtitle {
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.part5_title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.part5_description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.part6_container{
+    margin-top: 80px;
+}
+
+.part7_container {
+    margin-top: 80px;
+}
+
+.part7_subtitle {
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.part7_title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.part7_description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.image_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image_container {
+    width: 30%;
+    margin: 10px;
+}
+
+.image_container img {
+    width: 100%;
+}
+
+
+.part8_container {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
+.part8_subcontainer {
+    padding: 50px 150px;
+}
+
+.part8_icon {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.part8_title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.part8_description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.input_container {
+    display: flex;
+    /* justify-content: space-between; */
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.email, .submit {
+     /* Set the width of each input field as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    border: none;
+    outline: none;
+}
+
+.email {
+    width: 60%;
+    float: right;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+.submit {
+    width: 30%;
+    float: left; /* Float the submit input to the left */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+
+
+footer{
+    background: #070211;
+    color: #FFF;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px;
+}
+.item2{
+    text-align: center;
 }
