@@ -227,6 +227,52 @@ main {
 
 .part6_container{
     margin-top: 80px;
+    text-align: center;
+}
+.part6_subtitle{
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.part6_title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.part6_description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0px 80px;
+    margin-bottom: 30px;
+}
+.part6_image_container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background: url("../resources/Rectangle\ 2.png") bottom no-repeat ;
+
+    /* background-size: 100% 20%; */
+    background-size: 100% 30%;
+}
+.img1{
+    width: 300px;
+}
+.img2{
+    width: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+#khanki{
+    width: 320px;
 }
 
 .part7_container {
