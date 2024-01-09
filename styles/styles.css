@@ -400,3 +400,9 @@ footer{
 .item2{
     text-align: center;
 }
+.item2 img{
+    width: 4%;
+}
+.foot i {
+    margin-right: 10px;
+}
