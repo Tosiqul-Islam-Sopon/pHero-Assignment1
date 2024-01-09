@@ -415,6 +415,10 @@ footer{
     width: 4%;
     cursor: pointer;
 }
+.item2 img:hover{
+    background-color: #FFF;
+    padding: 5px;
+}
 .foot i {
     margin-right: 10px;
 }
