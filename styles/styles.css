@@ -329,6 +329,11 @@ main {
 .image_container img {
     width: 100%;
 }
+.image_container img:hover{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 
 .part8_container {
