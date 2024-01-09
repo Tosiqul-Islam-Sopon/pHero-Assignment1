@@ -134,6 +134,11 @@ main {
     border: 0;
     cursor: pointer;
 }
+.part3_btn:hover{
+    background-color: #45a049;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 .part4_container {
     margin-top: 80px;
@@ -175,6 +180,9 @@ main {
     border: 0;
     text-transform: uppercase;
     cursor: pointer;
+}
+.part4_btn:hover{
+    background-color: #45a049;
 }
 
 
@@ -262,8 +270,6 @@ main {
     position: relative;
     justify-content: space-between;
     background: url("../resources/Rectangle\ 2.png") bottom no-repeat ;
-
-    /* background-size: 100% 20%; */
     background-size: 100% 30%;
 }
 .img1{
@@ -275,7 +281,7 @@ main {
     z-index: 1;
 }
 
-#khanki{
+#part6_person{
     width: 320px;
 }
 
@@ -361,15 +367,13 @@ main {
 }
 .input_container {
     display: flex;
-    /* justify-content: space-between; */
-    max-width: 400px; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center the form horizontally */
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .email, .submit {
-     /* Set the width of each input field as needed */
-    padding: 10px; /* Adjust the padding as needed */
-    box-sizing: border-box; /* Include padding and border in the total width */
+    padding: 10px;
+    box-sizing: border-box;
     border: none;
     outline: none;
 }
@@ -384,11 +388,14 @@ main {
 
 .submit {
     width: 30%;
-    float: left; /* Float the submit input to the left */
+    float: left;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: red;
     cursor: pointer;
+}
+.submit:hover{
+    background-color: #45a049;
 }
 
 
@@ -406,6 +413,7 @@ footer{
 }
 .item2 img{
     width: 4%;
+    cursor: pointer;
 }
 .foot i {
     margin-right: 10px;
